@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "weather-journal-app",
+  "description": "this is a weather journal web api app. it recieves the zipcode from the user in addition of his feeling it uses that zipcode to get weather data from openweathermap api the app sends the temperature from the api to the local server in addition to the user entry and the current date the server saves all the data is sent to then the app gets that data and prints it to the UI  # extra  the user can enter country code in addition to the zipcode (the default is usa)  the app sends error message to the server if the zipcode is invalid  an alert message was made to appear if there is an error",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "mostafa",
+  "license": "ISC"
+}
